@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 mongoose.set('strictQuery', false)
-let uri=`mongodb+srv://rajat:qazwsxedc1@cluster0.xez06ht.mongodb.net/?retryWrites=true&w=majority`
+let uri=`mongodb+srv://adminved:adminved@cluster0.za9uiad.mongodb.net/?retryWrites=true&w=majority`
 async function dbConnection(){
     await mongoose.connect(uri,(err)=>{
        if(err)
